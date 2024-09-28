@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="https://kit.fontawesome.com/69c53fbd48.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header bg-slate-800 flex justify-between  py-1">
+       <div class="logos flex">
+        <img class="h-10 rounded-xl w-10 mx-2 hover:opacity-25" src="face.jpeg" alt="captainraj">
+        <img class="h-10 rounded-xl w-24 mx-2 hover:opacity-25" src="logo.png" alt="captainraj">
+       </div>
+        <nav class="font-semibold text-xl">
+            <a class="text-white mx-2 hover:text-blue-600" href="#">HOME</a>
+            <a class="text-white mx-2 hover:text-blue-600" href="#">ABOUT</a>
+            <a class="text-white mx-2 hover:text-blue-600" href="#">CONTACT</a>
+            <a class="text-white mx-2 hover:text-blue-600" href="#">WORK</a>
+            <a class="text-white mx-4 hover:text-blue-600" href="#">MORE</a>
+
+        </nav>
+    </div>
+
+
+
+
+    <div class="currencyconverter bg-[url('/cash.webp')] p-24 flex justify-center ">
+        <div class="cont  border-4 border-black bg-orange-400 min-h-96 p-2 rounded-xl w-96">
+            <h1 class="w-full text-center font-bold text-3xl">CURRENCY CONVERTER</h1>
+            <form class="m-3">
+                <div class="amount ">
+                    <p>Enter Amount</p>
+                    <input class="w-full rounded-xl border-4 border-black" value="100" type="text">
+                </div>
+                <div class="dropdown flex justify-between">
+                    <div class="from my-2 pl-5">
+                        <p class="font-semibold">From</p>
+                        <div class="selectcontainer">
+                            <img class="w-16" src="https://flagsapi.com/US/flat/64.png">
+                            <select class="w-full rounded-xl border-4 border-gray-700" name="from">
+                                <option value="USD" selected>USD</option>
+                            </select>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-right-left mt-16 mx-0 text-3xl justify-center"></i>
+                    <div class="to my-2 pr-5">
+                        <p class="font-semibold">To</p>
+                        <div class="selectcontainer">
+                            <img class="w-16" src="https://flagsapi.com/IN/flat/64.png">
+                            <select class="w-full rounded-xl border-4 border-gray-700" name="To">
+                                <option value="INR" selected>INR</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="msg text-center">1 USD = 80 INR</div>
+                <button class=" cursor-pointer w-full border-2 border-black bg-purple-600 rounded-md text-white hover:bg-indigo-500 h-10 hover:text-black">GET EXCHANGE RATE</button>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+    <footer class="footer border-2 border-black bg-yellow-400 py-1 pb-2">
+        <div class="upper text-black font font-bold mx-3 text-4xl" >CONTACT ME</div>
+        <hr>
+        <div class="mainfooter flex">
+            <div class="leftfooter  w-1/2 ml-20 border-r-2 border-r-black pr-10">
+                
+                <button class="border-2 border-black rounded-xl px-3 block mt-2 hover:bg-white"><h1 class="text-wrap text-xl text-black "><i class="fa-solid fa-envelope text-3xl my-1 "></i>  dhruvrajsingh.1019@gmail.com</h1></button>
+                <button class="border-2 border-black rounded-xl px-3 block mt-2 hover:bg-white"><h1 class="text-xl text-wrap text-black "><i class="fa-solid fa-phone-flip text-3xl my-1"></i>+91xxxxxxxxxx  </h1></button>
+                <button class="border-2 border-black rounded-xl px-3 block mt-2 hover:bg-white"><h1 class="text-wrap text-xl text-black "><i class="fa-brands fa-linkedin text-3xl my-1"></i> Linkedin</h1></button>
+                <button class="border-2 border-black rounded-xl px-3 block mt-2 hover:bg-white"><h1 class="text-wrap text-xl text-black "><i class="fa-brands fa-github text-3xl my-1"></i> Github</h1></button>
+                <button class="border-2 border-black rounded-xl px-3 block mt-2 hover:bg-white"><h1 class="text-wrap text-xl text-black "><i class="fa-brands fa-x-twitter text-3xl my-1"></i>Twitter</h1></button>
+
+            </div>
+            <div class="rightfooter  w-1/2 ml-5 ">
+                
+                <button class="border-2 border-black rounded-xl px-3 block mt-2 hover:bg-white"><h1 class="text-wrap text-xl text-black "><i class="fa-brands fa-instagram text-3xl my-1"></i> Instagram</h1></button>
+                <button class="border-2 border-black rounded-xl px-3 block mt-2 hover:bg-white"><h1 class="text-xl text-wrap text-black "><i class="fa-brands fa-square-reddit text-3xl my-1"></i> Reddit  </h1></button>
+                <button class="border-2 border-black rounded-xl px-3 block mt-2 hover:bg-white"><h1 class="text-wrap text-xl text-black "><i class="fa-brands fa-discord text-3xl my-1"></i> Discord</h1></button>
+                <button class="border-2 border-black rounded-xl px-3 block mt-2 hover:bg-white"><h1 class="text-wrap text-xl text-black "><i class="fa-brands fa-youtube text-3xl my-1"></i> Youtube</h1></button>
+                <button class="border-2 border-black rounded-xl px-3 block mt-2 hover:bg-white"><h1 class="text-wrap text-xl text-black "><i class="fa-brands fa-spotify text-3xl my-1"></i> Spotify</h1></button>
+
+            </div>
+            <hr class="text-white text-2xl"></div>
+        </div> 
+        
+    </footer>
+    <div class="bottomfooter h-24 bg-black text-white  text-xl text-center">
+        <h1 class="block py-8"> © 2024 CaptainRaj_19. All rights reserved.</h1>
+
+    </div>
+    <script src="codes.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
